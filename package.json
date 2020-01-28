@@ -1,5 +1,5 @@
 {
-  "name": "npm-author-name-1",
+  "name": "npm-author-name",
   "version": "1.0.4",
   "description": "Gets the npm author name from npmrc file, or fallback to git config",
   "types": "lib/index.d.ts",
