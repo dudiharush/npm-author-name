@@ -1,4 +1,4 @@
-# fetch-tx (works in node & web)
+# description
 
 Get/Set your npm author name from npmrc or gitconfig files
 
