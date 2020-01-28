@@ -1,5 +1,5 @@
 {
-  "name": "npm-author-name",
+  "name": "npm-author-name-1",
   "version": "1.0.2",
   "description": "Gets the npm author name from npmrc file, or fallback to git config",
   "types": "lib/index.d.ts",
@@ -79,6 +79,7 @@
     "chalk": "^3.0.0",
     "commander": "^4.1.0",
     "git-user-name": "^2.0.0",
+    "npm-author-name": "^1.0.2",
     "shelljs": "^0.8.3"
   }
 }
