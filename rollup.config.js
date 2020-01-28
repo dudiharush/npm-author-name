@@ -37,7 +37,7 @@ export default [{
 ],
 },
 {
-  input: 'cli.ts',
+  input: 'src/cli.ts',
   external,
   plugins: [
     // Allows node_modules resolution
