@@ -4,7 +4,7 @@ Get/Set your npm author name from npmrc or gitconfig files
 
 # installation
 
-npm i fetch-tx
+npm i npm-author-name
 
 # usage example
 
