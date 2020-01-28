@@ -6,6 +6,7 @@
   "main": "lib/index.js",
   "module": "lib/index.module.js",
   "source": "src/index.ts",
+  "bin": "lib/cli.js",
   "scripts": {
     "clean": "rimraf lib/*",
     "lint:fix": "eslint src/ --ext .tsx,.ts,.js --fix",
@@ -15,7 +16,8 @@
     "prepublish": "npm run build && npm version patch",
     "type-check:watch": "npm run type-check -- --watch",
     "compile": "rollup -c",
-    "build": "run-s clean compile build:types"
+    "build": "run-s clean compile build:types",
+    "add-shebang": "babel --plugins prepend-shebang lib/cli.js --out-dir ./lib"
   },
   "keywords": [
     "npm username",
@@ -55,6 +57,7 @@
     "prettier": "^1.19.1",
     "rimraf": "^3.0.0",
     "rollup": "^1.29.0",
+    "rollup-plugin-add-shebang": "^0.3.1",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",

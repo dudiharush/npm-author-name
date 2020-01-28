@@ -16,6 +16,6 @@
     "declarationDir": "./lib",
     "emitDeclarationOnly": true
   },
-  "include": ["src/*"],
+  "include": ["src/*", "src/cli.ts"],
   "exclude": ["node_modules", "src/**/*.spec.ts"]
 }
