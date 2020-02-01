@@ -6,6 +6,9 @@
   "main": "lib/index.js",
   "module": "lib/index.module.js",
   "source": "src/index.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "clean": "rimraf lib/*",
     "lint:fix": "eslint src/ --ext .tsx,.ts,.js --fix",
